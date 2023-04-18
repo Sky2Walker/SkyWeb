@@ -1,0 +1,418 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.container {
+  max-width: 1600px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url("/images/pexels-kai-pilger-1341279.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 7rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 10px black;
+  margin-bottom: 50px;
+}
+
+.slogan {
+  color: #ffffff;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+
+ #about {
+    
+    color: rgb(0, 0, 0);
+    padding: 100px 0;
+  }
+  .section-title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .team-members {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .team-member {
+    flex-basis: 45%;
+    margin-bottom: 50px;
+   
+  }
+  .team-member img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .team-member h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .member-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+
+  .about {
+    background-color: #ffffff;
+    padding: 50px;
+    
+  }
+
+  .section-title {
+    font-size: 3rem;
+    color: #3b3b3b;
+    margin-bottom: 20px;
+  }
+
+  .section-description {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #636363;
+    
+    margin: 0 auto;
+  }
+
+
+.technologies {
+  background-color: #f8f8f8;
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.technologies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.technology-card {
+  width: calc(33.33% - 20px);
+  margin-bottom: 40px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.technology-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.technology-img {
+  max-width: 80px;
+  margin-bottom: 20px;
+}
+
+.technology-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.technology-description {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+
+.feedback-form {
+  background-color: #f8f8f8;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.feedback-form .section-title {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.feedback-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-form .form-field {
+  margin-bottom: 20px;
+}
+
+.feedback-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form input[type="tel"],
+.feedback-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: 16px;
+}
+
+.feedback-form input[type="text"]:focus,
+.feedback-form input[type="email"]:focus,
+.feedback-form input[type="tel"]:focus,
+.feedback-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #6c5ce7;
+}
+
+.feedback-form textarea {
+  resize: vertical;
+}
+
+.feedback-form .submit-button {
+  background-color: #6c5ce7;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.feedback-form .submit-button:hover {
+  background-color: #4834d4;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #0f1626;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-col {
+  width: calc(100% / 3 - 20px);
+  margin-bottom: 30px;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.footer-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-item {
+  margin-bottom: 10px;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+  color: #00bfff;
+}
+
+.footer-social-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer-social-item {
+  margin-right: 10px;
+}
+
+.footer-social-link {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-social-link:hover {
+  color: #00bfff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #fff;
+  margin-top: 50px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.footer-bottom .footer-text {
+  margin: 0;
+}
+
+.footer-bottom .footer-text a {
+  color: #fff;
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-bottom .footer-text a:hover {
+  color: #00bfff;
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: none;
+}
+
+.navbar.active {
+  display: block;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #363636;
+}
+
+.navbar-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link {
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #363636;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #0080ff;
+}
+
+

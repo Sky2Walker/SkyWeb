@@ -46,7 +46,7 @@ body {
 }
 
 .header {
-  background-image: url("/images/pexels-kai-pilger-1341279.jpg");
+  background-image: url("../images/pexels-kai-pilger-1341279.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
